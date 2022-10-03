@@ -4,6 +4,7 @@ def re_arrange_array(arr: list[int], n: int) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([-1, 2, -3, 4, 5, 6, -7, 8, 9], 9) == [-1, -3, -7, 4, 5, 6, 2, 8, 9]
     assert candidate([12, -14, -26, 13, 15], 5) == [-14, -26, 12, 13, 15]

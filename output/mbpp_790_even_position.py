@@ -4,6 +4,7 @@ def even_position(nums: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([3, 2, 1]) == False
     assert candidate([1, 2, 3]) == False

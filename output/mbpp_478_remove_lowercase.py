@@ -4,6 +4,7 @@ def remove_lowercase(str1: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('PYTHon') == 'PYTH'
     assert candidate('FInD') == 'FID'

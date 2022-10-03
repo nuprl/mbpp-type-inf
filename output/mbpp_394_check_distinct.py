@@ -4,6 +4,7 @@ def check_distinct(test_tup: tuple[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((1, 4, 5, 6, 1, 4)) == False
     assert candidate((1, 4, 5, 6)) == True

@@ -4,6 +4,7 @@ def capital_words_spaces(str1: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('Python') == 'Python'
     assert candidate('PythonProgrammingExamples') == 'Python Programming Examples'

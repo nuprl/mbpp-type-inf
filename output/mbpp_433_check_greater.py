@@ -4,6 +4,7 @@ def check_greater(arr: list[int], number: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5], 4) == False
     assert candidate([2, 3, 4, 5, 6], 8) == True

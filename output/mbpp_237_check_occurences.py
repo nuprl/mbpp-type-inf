@@ -4,6 +4,7 @@ def check_occurences(test_list: list[tuple[int]]) -> dict[tuple[int], int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([(3, 1), (1, 3), (2, 5), (5, 2), (6, 3)]) == {(1, 3): 2, (2, 5): 2, (3, 6): 1}
     assert candidate([(4, 2), (2, 4), (3, 6), (6, 3), (7, 4)]) == {(2, 4): 2, (3, 6): 2, (4, 7): 1}

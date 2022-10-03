@@ -4,6 +4,7 @@ def min_Jumps(steps: tuple[int], d: int) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((3, 4), 11) == 3.5
     assert candidate((3, 4), 0) == 0

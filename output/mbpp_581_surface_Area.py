@@ -4,6 +4,7 @@ def surface_Area(b: int, s: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3, 4) == 33
     assert candidate(4, 5) == 56

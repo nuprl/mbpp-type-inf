@@ -4,6 +4,7 @@ def big_diff(nums: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4]) == 3
     assert candidate([4, 5, 12]) == 8

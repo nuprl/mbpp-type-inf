@@ -4,6 +4,7 @@ def count_occurance(s: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('letstdlenstdporstd') == 3
     assert candidate('truststdsolensporsd') == 1

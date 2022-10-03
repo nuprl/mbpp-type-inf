@@ -4,6 +4,7 @@ def remove_odd(str1: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python') == 'yhn'
     assert candidate('program') == 'rga'

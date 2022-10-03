@@ -4,6 +4,7 @@ def text_lowercase_underscore(text: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('aab_cbbbc') == True
     assert candidate('aab_Abbbc') == False

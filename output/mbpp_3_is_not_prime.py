@@ -4,6 +4,7 @@ def is_not_prime(n: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2) == False
     assert candidate(10) == True

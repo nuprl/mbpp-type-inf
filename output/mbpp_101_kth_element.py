@@ -4,6 +4,7 @@ def kth_element(arr: list[int], k: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([12, 3, 5, 7, 19], 2) == 3
     assert candidate([17, 24, 8, 23], 3) == 8

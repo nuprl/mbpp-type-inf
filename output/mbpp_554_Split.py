@@ -4,6 +4,7 @@ def Split(list: list[int]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5, 6]) == [1, 3, 5]
     assert candidate([10, 11, 12, 13]) == [11, 13]

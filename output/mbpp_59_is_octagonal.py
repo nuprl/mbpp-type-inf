@@ -4,6 +4,7 @@ def is_octagonal(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(5) == 65
     assert candidate(10) == 280

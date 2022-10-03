@@ -4,6 +4,7 @@ def max_subarray_product(arr: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, -2, -3, 0, 7, -8, -2]) == 112
     assert candidate([6, -3, -10, 0, 2]) == 180

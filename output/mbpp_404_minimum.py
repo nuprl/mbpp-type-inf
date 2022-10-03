@@ -4,6 +4,7 @@ def minimum(a: int, b: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(1, 2) == 1
     assert candidate(-5, -4) == -5

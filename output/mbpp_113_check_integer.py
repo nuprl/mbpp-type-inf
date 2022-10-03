@@ -4,6 +4,7 @@ def check_integer(text: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python') == False
     assert candidate('1') == True

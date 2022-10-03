@@ -4,6 +4,7 @@ def snake_to_camel(word: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python_program') == 'PythonProgram'
     assert candidate('python_language') == 'PythonLanguage'

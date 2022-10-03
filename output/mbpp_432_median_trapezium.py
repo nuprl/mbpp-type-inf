@@ -4,6 +4,7 @@ def median_trapezium(base1: int, base2: int, height: int) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(15, 25, 35) == 20
     assert candidate(10, 20, 30) == 15

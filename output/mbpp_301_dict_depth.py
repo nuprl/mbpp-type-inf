@@ -4,6 +4,7 @@ def dict_depth(d: dict[typing.Any, typing.Union[int, dict[str, dict[str, dict[No
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate({'a': 1, 'b': {'c': {'d': {}}}}) == 4
     assert candidate({'a': 1, 'b': {'c': 'python'}}) == 2

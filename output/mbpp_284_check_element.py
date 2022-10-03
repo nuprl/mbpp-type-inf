@@ -4,6 +4,7 @@ def check_element(list: list[typing.Any], element: typing.Any) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['green', 'orange', 'black', 'white'], 'blue') == False
     assert candidate([1, 2, 3, 4], 7) == False

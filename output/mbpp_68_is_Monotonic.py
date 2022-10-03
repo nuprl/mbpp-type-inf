@@ -4,6 +4,7 @@ def is_Monotonic(A: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([6, 5, 4, 4]) == True
     assert candidate([1, 2, 2, 3]) == True

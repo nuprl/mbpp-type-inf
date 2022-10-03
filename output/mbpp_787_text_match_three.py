@@ -4,6 +4,7 @@ def text_match_three(text: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert not candidate('ac')
     assert not candidate('dc')

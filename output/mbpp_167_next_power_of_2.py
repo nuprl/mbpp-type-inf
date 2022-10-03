@@ -4,6 +4,7 @@ def next_power_of_2(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(0) == 1
     assert candidate(5) == 8

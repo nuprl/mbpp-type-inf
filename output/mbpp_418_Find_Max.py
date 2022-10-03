@@ -4,6 +4,7 @@ def Find_Max(lst: list[list[typing.Any]]) -> list[typing.Any]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([['A'], ['A', 'B'], ['A', 'B', 'C']]) == ['A', 'B', 'C']
     assert candidate([[1], [1, 2], [1, 2, 3]]) == [1, 2, 3]

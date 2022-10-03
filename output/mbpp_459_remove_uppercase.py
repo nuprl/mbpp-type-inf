@@ -4,6 +4,7 @@ def remove_uppercase(str1: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('cAstyoUrFavoRitETVshoWs') == 'cstyoravoitshos'
     assert candidate('wAtchTheinTernEtrAdIo') == 'wtchheinerntrdo'

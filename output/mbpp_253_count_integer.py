@@ -4,6 +4,7 @@ def count_integer(list1: list[typing.Union[int, str, float]]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 'abc', 1.2]) == 2
     assert candidate([1, 2, 3]) == 3

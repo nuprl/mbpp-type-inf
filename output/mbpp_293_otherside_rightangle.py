@@ -4,6 +4,7 @@ def otherside_rightangle(w: int, h: int) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(7, 8) == 10.63014581273465
     assert candidate(3, 4) == 5

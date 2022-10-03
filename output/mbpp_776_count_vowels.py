@@ -4,6 +4,7 @@ def count_vowels(test_str: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('bestinstareels') == 7
     assert candidate('partofthejourneyistheend') == 12

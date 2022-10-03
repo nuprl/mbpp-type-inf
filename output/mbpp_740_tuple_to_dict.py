@@ -4,6 +4,7 @@ def tuple_to_dict(test_tup: tuple[int]) -> dict[int, int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((1, 5, 7, 10, 13, 5)) == {1: 5, 7: 10, 13: 5}
     assert candidate((1, 2, 3, 4, 5, 6)) == {1: 2, 3: 4, 5: 6}

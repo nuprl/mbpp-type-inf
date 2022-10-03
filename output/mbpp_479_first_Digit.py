@@ -4,6 +4,7 @@ def first_Digit(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(123) == 1
     assert candidate(456) == 4

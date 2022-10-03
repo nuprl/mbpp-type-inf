@@ -4,6 +4,7 @@ def count_rotation(arr: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([3, 2, 1]) == 1
     assert candidate([4, 5, 1, 2, 3]) == 2

@@ -4,6 +4,7 @@ def lateralsurface_cube(l: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(5) == 100
     assert candidate(9) == 324

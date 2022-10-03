@@ -4,6 +4,7 @@ def find_length(string: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('11000010001') == 6
     assert candidate('10111') == 1

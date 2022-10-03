@@ -4,6 +4,7 @@ def difference(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3) == 30
     assert candidate(5) == 210

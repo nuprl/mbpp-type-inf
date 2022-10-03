@@ -4,6 +4,7 @@ def get_Char(strr: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('abc') == 'f'
     assert candidate('gfg') == 't'

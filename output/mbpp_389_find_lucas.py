@@ -4,6 +4,7 @@ def find_lucas(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(9) == 76
     assert candidate(4) == 7

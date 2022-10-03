@@ -4,6 +4,7 @@ def number_of_substrings(str: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('abc') == 6
     assert candidate('abcd') == 10

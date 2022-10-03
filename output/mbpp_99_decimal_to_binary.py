@@ -4,6 +4,7 @@ def decimal_to_binary(n: int) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(8) == '1000'
     assert candidate(18) == '10010'

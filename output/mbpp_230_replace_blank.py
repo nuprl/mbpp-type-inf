@@ -4,6 +4,7 @@ def replace_blank(str1: str, char: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('hello people', '@') == 'hello@people'
     assert candidate('python program language', '$') == 'python$program$language'

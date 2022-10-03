@@ -4,6 +4,7 @@ def sum_series(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(6) == 12
     assert candidate(10) == 30

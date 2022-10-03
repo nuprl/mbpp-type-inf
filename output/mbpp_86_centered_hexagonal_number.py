@@ -4,6 +4,7 @@ def centered_hexagonal_number(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10) == 271
     assert candidate(2) == 7

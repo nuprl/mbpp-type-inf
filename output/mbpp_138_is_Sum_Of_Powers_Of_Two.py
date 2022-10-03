@@ -4,6 +4,7 @@ def is_Sum_Of_Powers_Of_Two(n: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10) == True
     assert candidate(7) == False

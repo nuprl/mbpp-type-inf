@@ -4,6 +4,7 @@ def max_val(listval: list[typing.Union[str, int]]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['Python', 3, 2, 4, 5, 'version']) == 5
     assert candidate(['Python', 15, 20, 25]) == 25

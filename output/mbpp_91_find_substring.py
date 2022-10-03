@@ -4,6 +4,7 @@ def find_substring(str1: list[str], sub_str: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['red', 'black', 'white', 'green', 'orange'], 'ack') == True
     assert candidate(['red', 'black', 'white', 'green', 'orange'], 'abc') == False

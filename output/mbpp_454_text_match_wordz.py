@@ -4,6 +4,7 @@ def text_match_wordz(text: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('pythonz.') == True
     assert candidate('xyz.') == True

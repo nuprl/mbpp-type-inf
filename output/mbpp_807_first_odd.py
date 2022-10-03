@@ -4,6 +4,7 @@ def first_odd(nums: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 3, 5]) == 1
     assert candidate([2, 4, 1, 3]) == 1

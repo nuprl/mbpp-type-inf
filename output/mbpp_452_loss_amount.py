@@ -4,6 +4,7 @@ def loss_amount(actual_cost: int, sale_amount: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(1500, 1200) == 0
     assert candidate(100, 200) == 100

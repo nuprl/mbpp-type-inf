@@ -4,6 +4,7 @@ def max_run_uppercase(test_str: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('GeMKSForGERksISBESt') == 5
     assert candidate('PrECIOusMOVemENTSYT') == 6

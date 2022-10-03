@@ -4,6 +4,7 @@ def newman_prime(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3) == 7
     assert candidate(4) == 17

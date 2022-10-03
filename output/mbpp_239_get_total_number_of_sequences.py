@@ -4,6 +4,7 @@ def get_total_number_of_sequences(m: int, n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10, 4) == 4
     assert candidate(5, 2) == 6

@@ -4,6 +4,7 @@ def text_match_zero_one(text: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('ac') == False
     assert candidate('dc') == False

@@ -4,6 +4,7 @@ def count_Pairs(arr: list[int], n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 1], 3) == 2
     assert candidate([1, 1, 1, 1], 4) == 0

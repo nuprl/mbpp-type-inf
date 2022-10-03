@@ -4,6 +4,7 @@ def is_perfect_square(n: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert not candidate(10)
     assert candidate(36)

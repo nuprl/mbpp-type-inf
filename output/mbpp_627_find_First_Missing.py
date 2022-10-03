@@ -4,6 +4,7 @@ def find_First_Missing(array: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([0, 1, 2, 3]) == 4
     assert candidate([0, 1, 2, 6, 9]) == 3

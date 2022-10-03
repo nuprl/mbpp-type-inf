@@ -4,6 +4,7 @@ def concatenate_tuple(test_tup: tuple[typing.Union[str, int]]) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(('ID', 'is', 4, 'UTS')) == 'ID-is-4-UTS'
     assert candidate(('QWE', 'is', 4, 'RTY')) == 'QWE-is-4-RTY'

@@ -4,6 +4,7 @@ def word_len(s: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('Hadoop') == False
     assert candidate('great') == True

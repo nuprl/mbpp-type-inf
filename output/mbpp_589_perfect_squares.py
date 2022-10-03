@@ -4,6 +4,7 @@ def perfect_squares(a: int, b: int) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(1, 30) == [1, 4, 9, 16, 25]
     assert candidate(50, 100) == [64, 81, 100]

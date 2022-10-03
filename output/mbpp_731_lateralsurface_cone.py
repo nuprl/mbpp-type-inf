@@ -4,6 +4,7 @@ def lateralsurface_cone(r: int, h: int) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(5, 12) == 204.20352248333654
     assert candidate(10, 15) == 566.3586699569488

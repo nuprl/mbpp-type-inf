@@ -4,6 +4,7 @@ def find_Average_Of_Cube(n: int) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2) == 4.5
     assert candidate(3) == 12

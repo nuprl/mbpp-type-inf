@@ -4,6 +4,7 @@ def upper_ctr(str: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('PYthon') == 1
     assert candidate('BigData') == 1

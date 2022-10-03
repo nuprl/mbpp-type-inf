@@ -4,6 +4,7 @@ def toggle_middle_bits(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(9) == 15
     assert candidate(10) == 12

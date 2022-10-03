@@ -4,6 +4,7 @@ def lcs_of_three(X: str, Y: str, Z: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('AGGT12', '12TXAYB', '12XBA') == 2
     assert candidate('Reels', 'Reelsfor', 'ReelsforReels') == 5

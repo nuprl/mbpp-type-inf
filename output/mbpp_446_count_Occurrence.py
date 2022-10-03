@@ -4,6 +4,7 @@ def count_Occurrence(tup: tuple[typing.Any], lst: list[typing.Any]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(('a', 'a', 'c', 'b', 'd'), ['a', 'b']) == 3
     assert candidate((1, 2, 3, 1, 4, 6, 7, 1, 4), [1, 4, 7]) == 6

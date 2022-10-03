@@ -4,6 +4,7 @@ def is_sublist(l: list[int], s: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([2, 4, 3, 5, 7], [3, 7]) == False
     assert candidate([2, 4, 3, 5, 7], [4, 3]) == True

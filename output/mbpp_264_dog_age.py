@@ -4,6 +4,7 @@ def dog_age(h_age: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(12) == 61
     assert candidate(15) == 73

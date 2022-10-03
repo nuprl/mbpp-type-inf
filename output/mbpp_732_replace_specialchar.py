@@ -4,6 +4,7 @@ def replace_specialchar(text: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('Python language, Programming language.') == 'Python:language::Programming:language:'
     assert candidate('a b c,d e f') == 'a:b:c:d:e:f'

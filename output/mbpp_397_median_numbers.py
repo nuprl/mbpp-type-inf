@@ -4,6 +4,7 @@ def median_numbers(a: int, b: int, c: int) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(25, 55, 65) == 55.0
     assert candidate(20, 10, 30) == 20.0

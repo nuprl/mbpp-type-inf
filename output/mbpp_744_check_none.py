@@ -4,6 +4,7 @@ def check_none(test_tup: tuple[typing.Optional[int]]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((10, 4, 5, 6, None)) == True
     assert candidate((7, 8, 9, 11, 14)) == False

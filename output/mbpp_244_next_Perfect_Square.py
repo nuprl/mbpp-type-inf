@@ -4,6 +4,7 @@ def next_Perfect_Square(N: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(35) == 36
     assert candidate(6) == 9

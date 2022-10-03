@@ -4,6 +4,7 @@ def check_char(string: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('abba') == 'Valid'
     assert candidate('a') == 'Valid'

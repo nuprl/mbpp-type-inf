@@ -4,6 +4,7 @@ def tetrahedral_number(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(5) == 35
     assert candidate(6) == 56

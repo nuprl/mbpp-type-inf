@@ -4,6 +4,7 @@ def odd_values_string(str: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('abcdef') == 'ace'
     assert candidate('python') == 'pto'

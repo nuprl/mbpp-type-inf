@@ -4,6 +4,7 @@ def is_upper(string: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('person') == 'PERSON'
     assert candidate('final') == 'FINAL'

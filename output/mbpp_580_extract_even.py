@@ -4,6 +4,7 @@ def extract_even(test_tuple: tuple[typing.Union[int, tuple[typing.Union[int, tup
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((4, 5, (7, 6, (2, 4)), 6, 8)) == (4, (6, (2, 4)), 6, 8)
     assert candidate((5, 6, (8, 7, (4, 8)), 7, 9)) == (6, (8, (4, 8)))

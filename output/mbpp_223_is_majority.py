@@ -4,6 +4,7 @@ def is_majority(arr: list[int], n: int, x: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 3, 3, 3, 10], 7, 3) == True
     assert candidate([1, 1, 2, 4, 4, 4, 6, 6], 8, 4) == False

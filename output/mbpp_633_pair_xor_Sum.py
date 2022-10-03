@@ -4,6 +4,7 @@ def pair_xor_Sum(arr: list[int], n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([5, 9, 7, 6], 4) == 47
     assert candidate([7, 3, 5], 3) == 12

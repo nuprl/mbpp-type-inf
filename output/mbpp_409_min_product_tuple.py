@@ -4,6 +4,7 @@ def min_product_tuple(list1: list[tuple[int]]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([(2, 7), (2, 6), (1, 8), (4, 9)]) == 8
     assert candidate([(10, 20), (15, 2), (5, 10)]) == 30

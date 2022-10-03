@@ -4,6 +4,7 @@ def split(word: str) -> list[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python') == ['p', 'y', 't', 'h', 'o', 'n']
     assert candidate('Name') == ['N', 'a', 'm', 'e']

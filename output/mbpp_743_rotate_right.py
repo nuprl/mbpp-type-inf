@@ -4,6 +4,7 @@ def rotate_right(list: list[int], m: int) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3) == [8, 9, 10, 1, 2, 3, 4, 5, 6, 7]
     assert candidate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2) == [9, 10, 1, 2, 3, 4, 5, 6, 7, 8]

@@ -4,6 +4,7 @@ def find_Max_Num(arr: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3]) == 321
     assert candidate([4, 5, 6, 1]) == 6541

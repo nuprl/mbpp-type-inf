@@ -4,6 +4,7 @@ def noprofit_noloss(actual_cost: int, sale_amount: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(1500, 1200) == False
     assert candidate(100, 100) == True

@@ -4,6 +4,7 @@ def k_smallest_pairs(nums1: list[int], nums2: list[int], k: int) -> list[list[in
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 3, 7], [2, 4, 6], 2) == [[1, 2], [1, 4]]
     assert candidate([1, 3, 7], [2, 4, 6], 1) == [[1, 2]]

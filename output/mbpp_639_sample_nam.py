@@ -4,6 +4,7 @@ def sample_nam(sample_names: list[str]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['sally', 'Dylan', 'rebecca', 'Diana', 'Joanne', 'keith']) == 16
     assert candidate(['php', 'res', 'Python', 'abcd', 'Java', 'aaa']) == 10

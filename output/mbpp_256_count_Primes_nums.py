@@ -4,6 +4,7 @@ def count_Primes_nums(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(5) == 2
     assert candidate(10) == 4

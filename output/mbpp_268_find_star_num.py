@@ -4,6 +4,7 @@ def find_star_num(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3) == 37
     assert candidate(4) == 73

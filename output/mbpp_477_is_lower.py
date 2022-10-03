@@ -4,6 +4,7 @@ def is_lower(string: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('InValid') == 'invalid'
     assert candidate('TruE') == 'true'

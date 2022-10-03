@@ -4,6 +4,7 @@ def div_list(nums1: list[int], nums2: list[int]) -> list[float]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([4, 5, 6], [1, 2, 3]) == [4.0, 2.5, 2.0]
     assert candidate([3, 2], [1, 4]) == [3.0, 0.5]

@@ -4,6 +4,7 @@ def is_Diff(n: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(12345) == False
     assert candidate(1212112) == True

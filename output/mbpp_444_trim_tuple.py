@@ -4,6 +4,7 @@ def trim_tuple(test_list: list[tuple[int]], K: int) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([(5, 3, 2, 1, 4), (3, 4, 9, 2, 1), (9, 1, 2, 3, 5), (4, 8, 2, 1, 7)], 2) == '[(2,), (9,), (2,), (2,)]'
     assert candidate([(5, 3, 2, 1, 4), (3, 4, 9, 2, 1), (9, 1, 2, 3, 5), (4, 8, 2, 1, 7)], 1) == '[(3, 2, 1), (4, 9, 2), (1, 2, 3), (8, 2, 1)]'

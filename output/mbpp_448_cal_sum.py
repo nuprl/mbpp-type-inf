@@ -4,6 +4,7 @@ def cal_sum(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(9) == 49
     assert candidate(10) == 66

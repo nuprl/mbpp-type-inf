@@ -4,6 +4,7 @@ def cube_Sum(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2) == 72
     assert candidate(3) == 288

@@ -4,6 +4,7 @@ def find_kth(arr1: list[int], arr2: list[int], k: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([2, 3, 6, 7, 9], [1, 4, 8, 10], 5) == 6
     assert candidate([100, 112, 256, 349, 770], [72, 86, 113, 119, 265, 445, 892], 7) == 256

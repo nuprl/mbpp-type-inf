@@ -4,6 +4,7 @@ def string_to_list(string: str) -> list[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python programming') == ['python', 'programming']
     assert candidate('lists tuples strings') == ['lists', 'tuples', 'strings']

@@ -4,6 +4,7 @@ def is_num_decagonal(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3) == 27
     assert candidate(7) == 175

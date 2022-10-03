@@ -4,6 +4,7 @@ def tuple_to_int(nums: tuple[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((1, 2, 3)) == 123
     assert candidate((4, 5, 6)) == 456

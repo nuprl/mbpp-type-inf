@@ -4,6 +4,7 @@ def sum_list(lst1: list[int], lst2: list[int]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([10, 20, 30], [15, 25, 35]) == [25, 45, 65]
     assert candidate([1, 2, 3], [5, 6, 7]) == [6, 8, 10]

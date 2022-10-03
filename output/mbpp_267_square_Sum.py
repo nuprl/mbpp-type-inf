@@ -4,6 +4,7 @@ def square_Sum(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2) == 10
     assert candidate(3) == 35

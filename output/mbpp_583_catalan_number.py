@@ -4,6 +4,7 @@ def catalan_number(num: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10) == 16796
     assert candidate(9) == 4862

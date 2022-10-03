@@ -4,6 +4,7 @@ def remove_odd(l: list[int]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3]) == [2]
     assert candidate([2, 4, 6]) == [2, 4, 6]

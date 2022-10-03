@@ -4,6 +4,7 @@ def find_Element(arr: list[int], ranges: list[list[int]], rotations: int, index:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5], [[0, 2], [0, 3]], 2, 1) == 3
     assert candidate([1, 2, 3, 4], [[0, 1], [0, 2]], 1, 2) == 3

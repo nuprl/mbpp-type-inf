@@ -4,6 +4,7 @@ def find_adverb_position(text: str) -> tuple[typing.Union[int, str]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('clearly!! we can see the sky') == (0, 7, 'clearly')
     assert candidate('seriously!! there are many roses') == (0, 9, 'seriously')

@@ -4,6 +4,7 @@ def bitwise_xor(test_tup1: tuple[int], test_tup2: tuple[int]) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((10, 4, 6, 9), (5, 2, 3, 3)) == (15, 6, 5, 10)
     assert candidate((11, 5, 7, 10), (6, 3, 4, 4)) == (13, 6, 3, 14)

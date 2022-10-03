@@ -4,6 +4,7 @@ def Extract(lst: list[list[int]]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([[1, 2], [3, 4, 5], [6, 7, 8, 9]]) == [1, 3, 6]
     assert candidate([[1, 2, 3], [4, 5]]) == [1, 4]

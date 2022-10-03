@@ -4,6 +4,7 @@ def triangle_area(r: int) -> typing.Optional[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(-1) == None
     assert candidate(0) == 0

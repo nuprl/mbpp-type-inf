@@ -4,6 +4,7 @@ def check_min_heap(arr: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5, 6]) == True
     assert candidate([2, 3, 4, 5, 10, 15]) == True

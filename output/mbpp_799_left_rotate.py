@@ -4,6 +4,7 @@ def left_rotate(n: int, d: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(16, 2) == 64
     assert candidate(10, 2) == 40

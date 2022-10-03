@@ -4,6 +4,7 @@ def square_perimeter(a: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10) == 40
     assert candidate(5) == 20

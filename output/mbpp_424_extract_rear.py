@@ -4,6 +4,7 @@ def extract_rear(test_tuple: tuple[str]) -> list[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(('Mers', 'for', 'Vers')) == ['s', 'r', 's']
     assert candidate(('Avenge', 'for', 'People')) == ['e', 'r', 'e']

@@ -4,6 +4,7 @@ def reverse_vowels(str1: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('Python') == 'Python'
     assert candidate('USA') == 'ASU'

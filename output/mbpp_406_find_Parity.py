@@ -4,6 +4,7 @@ def find_Parity(x: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(12) == False
     assert candidate(7) == True

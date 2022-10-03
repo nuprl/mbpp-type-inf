@@ -4,6 +4,7 @@ def amicable_numbers_sum(limit: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(999) == 504
     assert candidate(9999) == 31626

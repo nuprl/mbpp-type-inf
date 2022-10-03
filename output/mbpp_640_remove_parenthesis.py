@@ -4,6 +4,7 @@ def remove_parenthesis(items: list[str]) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['python (chrome)']) == 'python'
     assert candidate(['string(.abc)']) == 'string'

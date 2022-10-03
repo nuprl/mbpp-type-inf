@@ -4,6 +4,7 @@ def find_sum(arr: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 1, 1, 4, 5, 6]) == 21
     assert candidate([1, 10, 9, 4, 2, 10, 10, 45, 4]) == 71

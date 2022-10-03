@@ -4,6 +4,7 @@ def highest_Power_of_2(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10) == 8
     assert candidate(19) == 16

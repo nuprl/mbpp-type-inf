@@ -4,6 +4,7 @@ def return_sum(dict: dict[str, int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate({'a': 100, 'b': 200, 'c': 300}) == 600
     assert candidate({'a': 25, 'b': 18, 'c': 45}) == 88

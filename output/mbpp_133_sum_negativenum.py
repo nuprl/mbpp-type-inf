@@ -4,6 +4,7 @@ def sum_negativenum(nums: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([2, 4, -6, -9, 11, -12, 14, -5, 17]) == -32
     assert candidate([10, 15, -14, 13, -18, 12, -20]) == -52

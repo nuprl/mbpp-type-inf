@@ -4,6 +4,7 @@ def reverse_words(s: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python program') == 'program python'
     assert candidate('java language') == 'language java'

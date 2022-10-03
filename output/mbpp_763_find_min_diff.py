@@ -4,6 +4,7 @@ def find_min_diff(arr: tuple[int], n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((1, 5, 3, 19, 18, 25), 6) == 1
     assert candidate((4, 3, 2, 6), 4) == 1

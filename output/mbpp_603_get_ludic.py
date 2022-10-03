@@ -4,6 +4,7 @@ def get_ludic(n: int) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10) == [1, 2, 3, 5, 7]
     assert candidate(25) == [1, 2, 3, 5, 7, 11, 13, 17, 23, 25]

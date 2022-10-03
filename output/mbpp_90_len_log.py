@@ -4,6 +4,7 @@ def len_log(list1: list[str]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['python', 'PHP', 'bigdata']) == 7
     assert candidate(['a', 'ab', 'abc']) == 3

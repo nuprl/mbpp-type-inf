@@ -4,6 +4,7 @@ def ascii_value(k: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('A') == 65
     assert candidate('R') == 82

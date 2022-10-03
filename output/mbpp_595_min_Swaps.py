@@ -4,6 +4,7 @@ def min_Swaps(str1: str, str2: str) -> typing.Any:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('1101', '1110') == 1
     assert candidate('111', '000') == 'Not Possible'

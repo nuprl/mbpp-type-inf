@@ -4,6 +4,7 @@ def odd_position(nums: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([2, 1, 4, 3, 6, 7, 6, 3]) == True
     assert candidate([4, 1, 2]) == True

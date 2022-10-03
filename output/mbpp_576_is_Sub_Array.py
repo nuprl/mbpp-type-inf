@@ -4,6 +4,7 @@ def is_Sub_Array(A: list[int], B: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 4, 3, 5], [1, 2]) == False
     assert candidate([1, 2, 1], [1, 2, 1]) == True

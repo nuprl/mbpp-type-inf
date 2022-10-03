@@ -4,6 +4,7 @@ def bell_number(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2) == 2
     assert candidate(10) == 115975

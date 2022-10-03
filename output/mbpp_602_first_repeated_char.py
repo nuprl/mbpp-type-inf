@@ -4,6 +4,7 @@ def first_repeated_char(str1: str) -> typing.Optional[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('abcabc') == 'a'
     assert candidate('abc') == None

@@ -4,6 +4,7 @@ def recursive_list_sum(data_list: list[typing.Union[int, list[int]]]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, [3, 4], [5, 6]]) == 21
     assert candidate([7, 10, [15, 14], [19, 41]]) == 106

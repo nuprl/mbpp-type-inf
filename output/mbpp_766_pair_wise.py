@@ -4,6 +4,7 @@ def pair_wise(l1: list[int]) -> list[tuple[int]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 1, 2, 3, 3, 4, 4, 5]) == [(1, 1), (1, 2), (2, 3), (3, 3), (3, 4), (4, 4), (4, 5)]
     assert candidate([1, 5, 7, 9, 10]) == [(1, 5), (5, 7), (7, 9), (9, 10)]

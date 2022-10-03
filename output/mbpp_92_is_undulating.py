@@ -4,6 +4,7 @@ def is_undulating(n: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(1212121) == True
     assert candidate(1991) == False

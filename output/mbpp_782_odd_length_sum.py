@@ -4,6 +4,7 @@ def odd_length_sum(arr: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 4]) == 14
     assert candidate([1, 2, 1, 2]) == 15

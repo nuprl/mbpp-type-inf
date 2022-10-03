@@ -4,6 +4,7 @@ def max_sub_array_sum_repeated(a: list[int], n: int, k: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([10, 20, -30, -1], 4, 3) == 30
     assert candidate([-1, 10, 20], 3, 2) == 59

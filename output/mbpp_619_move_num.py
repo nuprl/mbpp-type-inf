@@ -4,6 +4,7 @@ def move_num(test_str: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('I1love143you55three3000thousand') == 'Iloveyouthreethousand1143553000'
     assert candidate('Avengers124Assemble') == 'AvengersAssemble124'

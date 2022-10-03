@@ -4,6 +4,7 @@ def substract_elements(test_tup1: tuple[int], test_tup2: tuple[int]) -> tuple[in
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((10, 4, 5), (2, 5, 18)) == (8, -1, -13)
     assert candidate((11, 2, 3), (24, 45, 16)) == (-13, -43, -13)

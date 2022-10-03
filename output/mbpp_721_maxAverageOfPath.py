@@ -4,6 +4,7 @@ def maxAverageOfPath(cost: list[list[int]]) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([[1, 2, 3], [6, 5, 4], [7, 3, 9]]) == 5.2
     assert candidate([[2, 3, 4], [7, 6, 5], [8, 4, 10]]) == 6.2

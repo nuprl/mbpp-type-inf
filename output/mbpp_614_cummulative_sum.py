@@ -4,6 +4,7 @@ def cummulative_sum(test_list: list[tuple[int]]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([(1, 3), (5, 6, 7), (2, 6)]) == 30
     assert candidate([(2, 4), (6, 7, 8), (3, 7)]) == 37

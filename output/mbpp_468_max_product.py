@@ -4,6 +4,7 @@ def max_product(arr: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([3, 100, 4, 5, 150, 6]) == 3000
     assert candidate([4, 42, 55, 68, 80]) == 50265600

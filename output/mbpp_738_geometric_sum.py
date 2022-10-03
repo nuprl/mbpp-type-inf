@@ -4,6 +4,7 @@ def geometric_sum(n: int) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(7) == 1.9921875
     assert candidate(4) == 1.9375

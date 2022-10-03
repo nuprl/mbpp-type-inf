@@ -4,6 +4,7 @@ def tuple_str_int(test_str: str) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('(7, 8, 9)') == (7, 8, 9)
     assert candidate('(1, 2, 3)') == (1, 2, 3)

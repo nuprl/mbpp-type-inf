@@ -4,6 +4,7 @@ def union_elements(test_tup1: tuple[int], test_tup2: tuple[int]) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((3, 4, 5, 6), (5, 7, 4, 10)) == (3, 4, 5, 6, 7, 10)
     assert candidate((1, 2, 3, 4), (3, 4, 5, 6)) == (1, 2, 3, 4, 5, 6)

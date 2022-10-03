@@ -4,6 +4,7 @@ def min_k(test_list: list[tuple[typing.Union[str, int]]], K: int) -> list[tuple[
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([('Manjeet', 10), ('Akshat', 4), ('Akash', 2), ('Nikhil', 8)], 2) == [('Akash', 2), ('Akshat', 4)]
     assert candidate([('Sanjeev', 11), ('Angat', 5), ('Akash', 3), ('Nepin', 9)], 3) == [('Akash', 3), ('Angat', 5), ('Nepin', 9)]

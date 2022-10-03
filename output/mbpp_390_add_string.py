@@ -4,6 +4,7 @@ def add_string(list_: list[typing.Any], string: str) -> list[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4], 'temp{0}') == ['temp1', 'temp2', 'temp3', 'temp4']
     assert candidate(['a', 'b', 'c', 'd'], 'python{0}') == ['pythona', 'pythonb', 'pythonc', 'pythond']

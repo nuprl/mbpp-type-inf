@@ -4,6 +4,7 @@ def replace_spaces(string: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('My Name is Dawood') == 'My%20Name%20is%20Dawood'
     assert candidate('I am a Programmer') == 'I%20am%20a%20Programmer'

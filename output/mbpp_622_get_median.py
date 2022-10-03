@@ -4,6 +4,7 @@ def get_median(arr1: list[int], arr2: list[int], n: int) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 12, 15, 26, 38], [2, 13, 17, 30, 45], 5) == 16.0
     assert candidate([2, 4, 8, 9], [7, 13, 19, 28], 4) == 8.5

@@ -4,6 +4,7 @@ def sector_area(r: int, a: int) -> typing.Optional[float]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(4, 45) == 6.283185307179586
     assert candidate(9, 45) == 31.808625617596654

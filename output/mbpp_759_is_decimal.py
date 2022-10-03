@@ -4,6 +4,7 @@ def is_decimal(num: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('123.11') == True
     assert candidate('e666.86') == False

@@ -4,6 +4,7 @@ def all_unique(test_list: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3]) == True
     assert candidate([1, 2, 1, 2]) == False

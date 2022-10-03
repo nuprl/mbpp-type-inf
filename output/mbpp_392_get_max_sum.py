@@ -4,6 +4,7 @@ def get_max_sum(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(60) == 106
     assert candidate(10) == 12

@@ -4,6 +4,7 @@ def toggle_string(string: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('Python') == 'pYTHON'
     assert candidate('Pangram') == 'pANGRAM'

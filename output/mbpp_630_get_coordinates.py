@@ -4,6 +4,7 @@ def get_coordinates(test_tup: tuple[int]) -> list[list[int]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((3, 4)) == [[2, 3], [2, 4], [2, 5], [3, 3], [3, 4], [3, 5], [4, 3], [4, 4], [4, 5]]
     assert candidate((4, 5)) == [[3, 4], [3, 5], [3, 6], [4, 4], [4, 5], [4, 6], [5, 4], [5, 5], [5, 6]]

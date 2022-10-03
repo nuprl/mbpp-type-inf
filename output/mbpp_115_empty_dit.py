@@ -4,6 +4,7 @@ def empty_dit(list1: typing.Any) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([{}, {}, {}]) == True
     assert candidate([{1, 2}, {}, {}]) == False

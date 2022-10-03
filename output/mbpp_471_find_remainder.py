@@ -4,6 +4,7 @@ def find_remainder(arr: list[int], n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([100, 10, 5, 25, 35, 14], 11) == 9
     assert candidate([1, 1, 1], 1) == 0

@@ -4,6 +4,7 @@ def frequency(a: list[int], x: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3], 4) == 0
     assert candidate([1, 2, 2, 3, 3, 3, 4], 3) == 3

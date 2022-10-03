@@ -4,6 +4,7 @@ def check_tuplex(tuplex: tuple[typing.Union[str, int]], tuple1: typing.Any) -> b
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(('w', 3, 'r', 'e', 's', 'o', 'u', 'r', 'c', 'e'), 'r') == True
     assert candidate(('w', 3, 'r', 'e', 's', 'o', 'u', 'r', 'c', 'e'), '5') == False

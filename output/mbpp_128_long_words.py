@@ -4,6 +4,7 @@ def long_words(n: int, str: str) -> list[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3, 'python is a programming language') == ['python', 'programming', 'language']
     assert candidate(2, 'writing a program') == ['writing', 'program']

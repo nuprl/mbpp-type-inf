@@ -4,6 +4,7 @@ def common_element(list1: list[typing.Any], list2: list[typing.Any]) -> typing.O
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5], [5, 6, 7, 8, 9]) == True
     assert candidate([1, 2, 3, 4, 5], [6, 7, 8, 9]) == None

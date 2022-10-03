@@ -4,6 +4,7 @@ def max_Abs_Diff(arr: tuple[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((2, 1, 5, 3)) == 4
     assert candidate((9, 3, 2, 5, 1)) == 8

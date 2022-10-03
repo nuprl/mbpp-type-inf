@@ -4,6 +4,7 @@ def remove_Occ(s: str, ch: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('hello', 'l') == 'heo'
     assert candidate('abcda', 'a') == 'bcd'

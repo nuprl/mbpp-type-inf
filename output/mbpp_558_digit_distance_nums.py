@@ -4,6 +4,7 @@ def digit_distance_nums(n1: int, n2: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(1, 2) == 1
     assert candidate(23, 56) == 6

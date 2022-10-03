@@ -4,6 +4,7 @@ def first_non_repeating_character(str1: str) -> typing.Optional[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('abcabc') == None
     assert candidate('abc') == 'a'

@@ -4,6 +4,7 @@ def find_lists(Input: typing.Any) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(([1, 2, 3, 4], [5, 6, 7, 8])) == 2
     assert candidate(([1, 2], [3, 4], [5, 6])) == 3

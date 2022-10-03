@@ -4,6 +4,7 @@ def extract_freq(test_list: list[tuple[int]]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([(3, 4), (1, 2), (4, 3), (5, 6)]) == 3
     assert candidate([(4, 15), (2, 3), (5, 4), (6, 7)]) == 4

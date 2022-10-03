@@ -4,6 +4,7 @@ def unique_Element(arr: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 1, 1]) == True
     assert candidate([1, 2, 1, 2]) == False

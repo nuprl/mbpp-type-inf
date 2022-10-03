@@ -4,6 +4,7 @@ def maximum(a: int, b: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(5, 10) == 10
     assert candidate(-1, -2) == -1

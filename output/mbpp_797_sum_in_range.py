@@ -4,6 +4,7 @@ def sum_in_range(l: int, r: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2, 5) == 8
     assert candidate(5, 7) == 12

@@ -4,6 +4,7 @@ def index_multiplication(test_tup1: tuple[tuple[int]], test_tup2: tuple[tuple[in
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(((1, 3), (4, 5), (2, 9), (1, 10)), ((6, 7), (3, 9), (1, 1), (7, 3))) == ((6, 21), (12, 45), (2, 9), (7, 30))
     assert candidate(((2, 4), (5, 6), (3, 10), (2, 11)), ((7, 8), (4, 10), (2, 2), (8, 4))) == ((14, 32), (20, 60), (6, 20), (16, 44))

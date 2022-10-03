@@ -4,6 +4,7 @@ def all_Characters_Same(s: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python') == False
     assert candidate('aaa') == True

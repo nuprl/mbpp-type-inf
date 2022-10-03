@@ -4,6 +4,7 @@ def colon_tuplex(tuplex: tuple[typing.Union[str, int, list[None], bool]], m: int
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(('HELLO', 5, [], True), 2, 50) == ('HELLO', 5, [50], True)
     assert candidate(('HELLO', 5, [], True), 2, 100) == ('HELLO', 5, [100], True)

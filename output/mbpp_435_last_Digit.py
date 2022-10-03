@@ -4,6 +4,7 @@ def last_Digit(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(123) == 3
     assert candidate(25) == 5

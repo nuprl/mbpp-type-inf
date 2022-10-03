@@ -4,6 +4,7 @@ def split_Arr(l: list[int], n: int) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([12, 10, 5, 6, 52, 36], 2) == [5, 6, 52, 36, 12, 10]
     assert candidate([1, 2, 3, 4], 1) == [2, 3, 4, 1]

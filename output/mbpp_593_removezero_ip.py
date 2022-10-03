@@ -4,6 +4,7 @@ def removezero_ip(ip: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('216.08.094.196') == '216.8.94.196'
     assert candidate('12.01.024') == '12.1.24'

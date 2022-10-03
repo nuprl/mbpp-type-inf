@@ -4,6 +4,7 @@ def power_base_sum(base: int, power: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2, 100) == 115
     assert candidate(8, 10) == 37

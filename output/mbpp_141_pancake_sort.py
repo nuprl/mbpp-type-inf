@@ -4,6 +4,7 @@ def pancake_sort(nums: list[int]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([15, 79, 25, 38, 69]) == [15, 25, 38, 69, 79]
     assert candidate([98, 12, 54, 36, 85]) == [12, 36, 54, 85, 98]

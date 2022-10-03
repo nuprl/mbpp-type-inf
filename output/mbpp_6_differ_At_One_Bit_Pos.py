@@ -4,6 +4,7 @@ def differ_At_One_Bit_Pos(a: int, b: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(13, 9) == True
     assert candidate(15, 8) == False

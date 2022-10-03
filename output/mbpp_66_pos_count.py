@@ -4,6 +4,7 @@ def pos_count(list: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, -2, 3, -4]) == 2
     assert candidate([3, 4, 5, -1]) == 3

@@ -4,6 +4,7 @@ def new_tuple(test_list: list[str], test_str: str) -> tuple[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['WEB', 'is'], 'best') == ('WEB', 'is', 'best')
     assert candidate(['We', 'are'], 'Developers') == ('We', 'are', 'Developers')

@@ -4,6 +4,7 @@ def drop_empty(dict1: dict[str, typing.Optional[str]]) -> dict[str, str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate({'c1': 'Red', 'c2': 'Green', 'c3': None}) == {'c1': 'Red', 'c2': 'Green'}
     assert candidate({'c1': 'Red', 'c2': None, 'c3': None}) == {'c1': 'Red'}

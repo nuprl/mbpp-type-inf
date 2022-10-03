@@ -4,6 +4,7 @@ def convert_list_dictionary(l1: list[str], l2: list[str], l3: list[int]) -> list
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['S001', 'S002', 'S003', 'S004'], ['Adina Park', 'Leyton Marsh', 'Duncan Boyle', 'Saim Richards'], [85, 98, 89, 92]) == [{'S001': {'Adina Park': 85}}, {'S002': {'Leyton Marsh': 98}}, {'S003': {'Duncan Boyle': 89}}, {'S004': {'Saim Richards': 92}}]
     assert candidate(['abc', 'def', 'ghi', 'jkl'], ['python', 'program', 'language', 'programs'], [100, 200, 300, 400]) == [{'abc': {'python': 100}}, {'def': {'program': 200}}, {'ghi': {'language': 300}}, {'jkl': {'programs': 400}}]

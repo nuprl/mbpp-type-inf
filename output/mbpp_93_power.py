@@ -4,6 +4,7 @@ def power(a: int, b: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3, 4) == 81
     assert candidate(2, 3) == 8

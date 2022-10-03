@@ -4,6 +4,7 @@ def extract_string(str: list[str], l: int) -> list[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['Python', 'list', 'exercises', 'practice', 'solution'], 8) == ['practice', 'solution']
     assert candidate(['Python', 'list', 'exercises', 'practice', 'solution'], 6) == ['Python']

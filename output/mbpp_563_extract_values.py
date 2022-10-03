@@ -4,6 +4,7 @@ def extract_values(text: str) -> list[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('"Python", "PHP", "Java"') == ['Python', 'PHP', 'Java']
     assert candidate('"python","program","language"') == ['python', 'program', 'language']

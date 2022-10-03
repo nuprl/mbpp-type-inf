@@ -4,6 +4,7 @@ def last(arr: list[int], x: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3], 1) == 0
     assert candidate([1, 1, 1, 2, 3, 4], 1) == 2

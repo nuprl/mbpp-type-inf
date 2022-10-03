@@ -4,6 +4,7 @@ def even_Power_Sum(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2) == 1056
     assert candidate(3) == 8832

@@ -4,6 +4,7 @@ def sequential_search(dlist: list[int], item: int) -> tuple[typing.Union[bool, i
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([11, 23, 58, 31, 56, 77, 43, 12, 65, 19], 31) == (True, 3)
     assert candidate([12, 32, 45, 62, 35, 47, 44, 61], 61) == (True, 7)

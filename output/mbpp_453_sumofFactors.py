@@ -4,6 +4,7 @@ def sumofFactors(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(18) == 26
     assert candidate(30) == 48

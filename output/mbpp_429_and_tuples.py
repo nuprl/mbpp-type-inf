@@ -4,6 +4,7 @@ def and_tuples(test_tup1: tuple[int], test_tup2: tuple[int]) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((10, 4, 6, 9), (5, 2, 3, 3)) == (0, 0, 2, 1)
     assert candidate((1, 2, 3, 4), (5, 6, 7, 8)) == (1, 2, 3, 0)

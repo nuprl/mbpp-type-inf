@@ -4,6 +4,7 @@ def test_three_equal(x: int, y: int, z: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(1, 1, 1) == 3
     assert candidate(-1, -2, -3) == 0

@@ -4,6 +4,7 @@ def check_str(string: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('annie')
     assert not candidate('dawood')

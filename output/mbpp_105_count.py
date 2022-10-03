@@ -4,6 +4,7 @@ def count(lst: list[bool]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([True, False, True]) == 2
     assert candidate([False, False]) == 0

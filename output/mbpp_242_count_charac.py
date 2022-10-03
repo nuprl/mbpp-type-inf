@@ -4,6 +4,7 @@ def count_charac(str1: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python programming') == 18
     assert candidate('language') == 8

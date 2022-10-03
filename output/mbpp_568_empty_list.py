@@ -4,6 +4,7 @@ def empty_list(length: int) -> list[dict[None, None]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(5) == [{}, {}, {}, {}, {}]
     assert candidate(6) == [{}, {}, {}, {}, {}, {}]

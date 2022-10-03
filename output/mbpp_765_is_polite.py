@@ -4,6 +4,7 @@ def is_polite(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(7) == 11
     assert candidate(4) == 7

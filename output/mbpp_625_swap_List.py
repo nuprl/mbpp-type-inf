@@ -4,6 +4,7 @@ def swap_List(newList: list[int]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3]) == [3, 2, 1]
     assert candidate([1, 2, 3, 4, 4]) == [4, 2, 3, 4, 1]

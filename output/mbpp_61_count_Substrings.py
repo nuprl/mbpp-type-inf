@@ -4,6 +4,7 @@ def count_Substrings(s: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('112112') == 6
     assert candidate('111') == 6

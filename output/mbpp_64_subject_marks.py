@@ -4,6 +4,7 @@ def subject_marks(subjectmarks: list[tuple[typing.Union[str, int]]]) -> list[tup
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]) == [('Social sciences', 82), ('English', 88), ('Science', 90), ('Maths', 97)]
     assert candidate([('Telugu', 49), ('Hindhi', 54), ('Social', 33)]) == [('Social', 33), ('Telugu', 49), ('Hindhi', 54)]

@@ -4,6 +4,7 @@ def is_product_even(arr: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3])
     assert candidate([1, 2, 1, 4])

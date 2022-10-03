@@ -4,6 +4,7 @@ def number_ctr(str: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('program2bedone') == 1
     assert candidate('3wonders') == 1

@@ -4,6 +4,7 @@ def remove_whitespaces(text1: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(' Google    Flutter ') == 'GoogleFlutter'
     assert candidate(' Google    Dart ') == 'GoogleDart'

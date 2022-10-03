@@ -4,6 +4,7 @@ def validate(n: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(1234) == True
     assert candidate(51241) == False

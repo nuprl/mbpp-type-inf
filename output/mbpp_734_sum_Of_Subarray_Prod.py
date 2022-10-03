@@ -4,6 +4,7 @@ def sum_Of_Subarray_Prod(arr: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3]) == 20
     assert candidate([1, 2]) == 5

@@ -4,6 +4,7 @@ def remove_all_spaces(text: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python  program') == 'pythonprogram'
     assert candidate('python   programming    language') == 'pythonprogramminglanguage'

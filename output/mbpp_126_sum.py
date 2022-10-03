@@ -4,6 +4,7 @@ def sum(a: int, b: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10, 15) == 6
     assert candidate(100, 150) == 93

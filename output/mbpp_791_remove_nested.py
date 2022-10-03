@@ -4,6 +4,7 @@ def remove_nested(test_tup: tuple[typing.Union[int, tuple[int]]]) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((1, 5, 7, (4, 6), 10)) == (1, 5, 7, 10)
     assert candidate((2, 6, 8, (5, 7), 11)) == (2, 6, 8, 11)

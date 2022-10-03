@@ -4,6 +4,7 @@ def search(arr: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 1, 2, 2, 3]) == 3
     assert candidate([1, 1, 3, 3, 4, 4, 5, 5, 7, 7, 8]) == 8

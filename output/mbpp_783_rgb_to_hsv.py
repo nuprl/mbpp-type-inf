@@ -4,6 +4,7 @@ def rgb_to_hsv(r: int, g: int, b: int) -> tuple[typing.Union[float, int]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(255, 255, 255) == (0, 0.0, 100.0)
     assert candidate(0, 215, 0) == (120.0, 100.0, 84.31372549019608)

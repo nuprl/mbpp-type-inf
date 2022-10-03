@@ -4,6 +4,7 @@ def last_Digit_Factorial(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(4) == 4
     assert candidate(21) == 0

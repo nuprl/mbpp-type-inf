@@ -4,6 +4,7 @@ def find_solution(a: int, b: int, n: int) -> typing.Optional[tuple[int]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2, 3, 7) == (2, 1)
     assert candidate(4, 2, 7) == None

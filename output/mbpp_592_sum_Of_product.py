@@ -4,6 +4,7 @@ def sum_Of_product(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3) == 15
     assert candidate(4) == 56

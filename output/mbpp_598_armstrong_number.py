@@ -4,6 +4,7 @@ def armstrong_number(number: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(153) == True
     assert candidate(259) == False

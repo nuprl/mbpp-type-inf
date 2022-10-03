@@ -4,6 +4,7 @@ def max_sum(arr: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 15, 51, 45, 33, 100, 12, 18, 9]) == 194
     assert candidate([80, 60, 30, 40, 20, 10]) == 210

@@ -4,6 +4,7 @@ def smallest_num(xs: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([10, 20, 1, 45, 99]) == 1
     assert candidate([1, 2, 3]) == 1

@@ -4,6 +4,7 @@ def checks(n: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(70) == False
     assert candidate(23) == False

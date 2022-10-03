@@ -4,6 +4,7 @@ def lps(str: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('TENS FOR TENS') == 5
     assert candidate('CARDIO FOR CARDS') == 7

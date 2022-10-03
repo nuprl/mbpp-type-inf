@@ -4,6 +4,7 @@ def extract_nth_element(list1: list[tuple[typing.Union[str, int]]], n: int) -> l
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)], 0) == ['Greyson Fulton', 'Brady Kent', 'Wyatt Knott', 'Beau Turnbull']
     assert candidate([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)], 2) == [99, 96, 94, 98]

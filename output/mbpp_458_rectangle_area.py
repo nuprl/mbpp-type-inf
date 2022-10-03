@@ -4,6 +4,7 @@ def rectangle_area(l: int, b: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10, 20) == 200
     assert candidate(10, 5) == 50

@@ -4,6 +4,7 @@ def string_to_tuple(str1: str) -> tuple[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('python 3.0') == ('p', 'y', 't', 'h', 'o', 'n', '3', '.', '0')
     assert candidate('item1') == ('i', 't', 'e', 'm', '1')

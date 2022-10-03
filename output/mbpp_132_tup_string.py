@@ -4,6 +4,7 @@ def tup_string(tup1: tuple[str]) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's')) == 'exercises'
     assert candidate(('p', 'y', 't', 'h', 'o', 'n')) == 'python'

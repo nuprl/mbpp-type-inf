@@ -4,6 +4,7 @@ def hexagonal_num(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10) == 190
     assert candidate(5) == 45

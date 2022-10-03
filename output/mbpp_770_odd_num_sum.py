@@ -4,6 +4,7 @@ def odd_num_sum(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2) == 82
     assert candidate(3) == 707

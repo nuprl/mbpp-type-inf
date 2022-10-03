@@ -4,6 +4,7 @@ def find_dissimilar(test_tup1: tuple[int], test_tup2: tuple[int]) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((3, 4, 5, 6), (5, 7, 4, 10)) == (3, 6, 7, 10)
     assert candidate((1, 2, 3, 4), (7, 2, 3, 9)) == (1, 4, 7, 9)

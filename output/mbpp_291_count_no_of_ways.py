@@ -4,6 +4,7 @@ def count_no_of_ways(n: int, k: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(2, 4) == 16
     assert candidate(3, 2) == 6

@@ -4,6 +4,7 @@ def find_Odd_Pair(A: list[int], N: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([5, 4, 7, 2, 1], 5) == 6
     assert candidate([7, 2, 8, 1, 0, 5, 11], 7) == 12

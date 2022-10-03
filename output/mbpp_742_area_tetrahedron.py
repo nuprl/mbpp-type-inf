@@ -4,6 +4,7 @@ def area_tetrahedron(side: int) -> float:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3) == 15.588457268119894
     assert candidate(20) == 692.8203230275509

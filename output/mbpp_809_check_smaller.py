@@ -4,6 +4,7 @@ def check_smaller(test_tup1: tuple[int], test_tup2: tuple[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((1, 2, 3), (2, 3, 4)) == False
     assert candidate((4, 5, 6), (3, 4, 5)) == True

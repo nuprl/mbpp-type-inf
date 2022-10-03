@@ -4,6 +4,7 @@ def reverse_Array_Upto_K(input: list[int], k: int) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5, 6], 4) == [4, 3, 2, 1, 5, 6]
     assert candidate([4, 5, 6, 7], 2) == [5, 4, 6, 7]

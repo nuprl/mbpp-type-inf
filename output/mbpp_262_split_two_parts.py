@@ -4,6 +4,7 @@ def split_two_parts(list1: list[typing.Any], L: int) -> tuple[list[typing.Any]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 1, 2, 3, 4, 4, 5, 1], 3) == ([1, 1, 2], [3, 4, 4, 5, 1])
     assert candidate(['a', 'b', 'c', 'd'], 2) == (['a', 'b'], ['c', 'd'])

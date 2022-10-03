@@ -4,6 +4,7 @@ def add_lists(test_list: list[int], test_tup: tuple[int]) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([5, 6, 7], (9, 10)) == (9, 10, 5, 6, 7)
     assert candidate([6, 7, 8], (10, 11)) == (10, 11, 6, 7, 8)

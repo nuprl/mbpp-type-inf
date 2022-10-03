@@ -4,6 +4,7 @@ def sum_div(number: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(8) == 7
     assert candidate(12) == 16

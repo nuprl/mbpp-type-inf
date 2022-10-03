@@ -4,6 +4,7 @@ def sum_average(number: int) -> tuple[typing.Union[int, float]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10) == (55, 5.5)
     assert candidate(15) == (120, 8.0)

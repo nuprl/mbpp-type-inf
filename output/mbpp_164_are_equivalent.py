@@ -4,6 +4,7 @@ def are_equivalent(num1: int, num2: int) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(36, 57) == False
     assert candidate(2, 4) == False

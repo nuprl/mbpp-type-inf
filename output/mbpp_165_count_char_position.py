@@ -4,6 +4,7 @@ def count_char_position(str1: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('xbcefg') == 2
     assert candidate('ABcED') == 3

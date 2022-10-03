@@ -4,6 +4,7 @@ def group_tuples(Input: list[tuple[str]]) -> list[tuple[str]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([('x', 'y'), ('x', 'z'), ('w', 't')]) == [('x', 'y', 'z'), ('w', 't')]
     assert candidate([('a', 'b'), ('a', 'c'), ('d', 'e')]) == [('a', 'b', 'c'), ('d', 'e')]

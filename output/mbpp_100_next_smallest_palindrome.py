@@ -4,6 +4,7 @@ def next_smallest_palindrome(num: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(99) == 101
     assert candidate(1221) == 1331

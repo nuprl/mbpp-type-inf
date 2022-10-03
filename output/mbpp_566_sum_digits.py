@@ -4,6 +4,7 @@ def sum_digits(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(345) == 12
     assert candidate(12) == 3

@@ -4,6 +4,7 @@ def remove_dirty_chars(string: str, second_string: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('probasscurve', 'pros') == 'bacuve'
     assert candidate('digitalindia', 'talent') == 'digiidi'

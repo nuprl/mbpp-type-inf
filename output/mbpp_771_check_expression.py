@@ -4,6 +4,7 @@ def check_expression(exp: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('{()}[{}]') == True
     assert candidate('{()}[{]') == False

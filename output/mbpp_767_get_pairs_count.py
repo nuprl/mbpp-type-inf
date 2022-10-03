@@ -4,6 +4,7 @@ def get_pairs_count(arr: list[int], sum: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 1, 1, 1], 2) == 6
     assert candidate([1, 5, 7, -1, 5], 6) == 3

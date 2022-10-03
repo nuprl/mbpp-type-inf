@@ -4,6 +4,7 @@ def filter_oddnumbers(nums: list[int]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) == [1, 3, 5, 7, 9]
     assert candidate([10, 20, 45, 67, 84, 93]) == [45, 67, 93]

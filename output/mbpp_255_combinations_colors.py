@@ -4,6 +4,7 @@ def combinations_colors(l: list[str], n: int) -> list[tuple[str]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['Red', 'Green', 'Blue'], 1) == [('Red',), ('Green',), ('Blue',)]
     assert candidate(['Red', 'Green', 'Blue'], 2) == [('Red', 'Red'), ('Red', 'Green'), ('Red', 'Blue'), ('Green', 'Green'), ('Green', 'Blue'), ('Blue', 'Blue')]

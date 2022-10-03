@@ -4,6 +4,7 @@ def sort_matrix(M: list[list[int]]) -> list[list[int]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([[1, 2, 3], [2, 4, 5], [1, 1, 1]]) == [[1, 1, 1], [1, 2, 3], [2, 4, 5]]
     assert candidate([[1, 2, 3], [-2, 4, -5], [1, -1, 1]]) == [[-2, 4, -5], [1, -1, 1], [1, 2, 3]]

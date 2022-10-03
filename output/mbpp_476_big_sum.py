@@ -4,6 +4,7 @@ def big_sum(nums: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3]) == 4
     assert candidate([-1, 2, 3, 4]) == 3

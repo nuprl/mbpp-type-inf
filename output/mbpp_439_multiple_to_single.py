@@ -4,6 +4,7 @@ def multiple_to_single(L: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([11, 33, 50]) == 113350
     assert candidate([-1, 2, 3, 4, 5, 6]) == -123456

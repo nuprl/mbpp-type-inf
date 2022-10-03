@@ -4,6 +4,7 @@ def text_match_wordz_middle(text: str) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('pythonzabc.') == True
     assert candidate('zxyabc.') == False

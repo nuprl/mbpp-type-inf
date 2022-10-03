@@ -4,6 +4,7 @@ def sub_list(nums1: list[int], nums2: list[int]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3], [4, 5, 6]) == [-3, -3, -3]
     assert candidate([1, 2], [3, 4]) == [-2, -2]

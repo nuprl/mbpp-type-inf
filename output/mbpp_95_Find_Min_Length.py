@@ -4,6 +4,7 @@ def Find_Min_Length(lst: list[list[int]]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([[1], [1, 2]]) == 1
     assert candidate([[1, 2], [1, 2, 3], [1, 2, 3, 4]]) == 2

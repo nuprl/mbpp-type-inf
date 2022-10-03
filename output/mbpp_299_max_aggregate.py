@@ -4,6 +4,7 @@ def max_aggregate(stdata: list[tuple[typing.Union[str, int]]]) -> tuple[typing.U
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([('Juan Whelan', 90), ('Sabah Colley', 88), ('Peter Nichols', 7), ('Juan Whelan', 122), ('Sabah Colley', 84)]) == ('Juan Whelan', 212)
     assert candidate([('Juan Whelan', 50), ('Sabah Colley', 48), ('Peter Nichols', 37), ('Juan Whelan', 22), ('Sabah Colley', 14)]) == ('Juan Whelan', 72)

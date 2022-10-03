@@ -4,6 +4,7 @@ def swap_numbers(a: int, b: int) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10, 20) == (20, 10)
     assert candidate(15, 17) == (17, 15)

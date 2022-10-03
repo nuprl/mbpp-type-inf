@@ -4,6 +4,7 @@ def neg_nos(list1: list[int]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([-1, 4, 5, -6]) == [-1, -6]
     assert candidate([-1, -2, 3, 4]) == [-1, -2]

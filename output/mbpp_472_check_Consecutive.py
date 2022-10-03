@@ -4,6 +4,7 @@ def check_Consecutive(l: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5]) == True
     assert candidate([1, 2, 3, 5, 6]) == False

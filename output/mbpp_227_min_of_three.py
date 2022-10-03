@@ -4,6 +4,7 @@ def min_of_three(a: int, b: int, c: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10, 20, 0) == 0
     assert candidate(19, 15, 18) == 15

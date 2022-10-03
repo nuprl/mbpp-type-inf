@@ -4,6 +4,7 @@ def unique_product(list_data: list[int]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([10, 20, 30, 40, 20, 50, 60, 40]) == 720000000
     assert candidate([1, 2, 3, 1]) == 6

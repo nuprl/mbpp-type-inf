@@ -4,6 +4,7 @@ def index_minimum(test_list: list[tuple[typing.Union[str, int]]]) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([('Rash', 143), ('Manjeet', 200), ('Varsha', 100)]) == 'Varsha'
     assert candidate([('Yash', 185), ('Dawood', 125), ('Sanya', 175)]) == 'Dawood'

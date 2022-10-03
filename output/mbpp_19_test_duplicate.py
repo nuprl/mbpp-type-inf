@@ -4,6 +4,7 @@ def test_duplicate(arraynums: list[int]) -> bool:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 5]) == False
     assert candidate([1, 2, 3, 4, 4]) == True

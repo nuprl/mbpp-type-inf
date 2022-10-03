@@ -4,6 +4,7 @@ def sequence(n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10) == 6
     assert candidate(2) == 1

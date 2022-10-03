@@ -4,6 +4,7 @@ def max_sum_increasing_subseq(a: list[int], n: int, index: int, k: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 101, 2, 3, 100, 4, 5], 7, 4, 6) == 11
     assert candidate([1, 101, 2, 3, 100, 4, 5], 7, 2, 5) == 7

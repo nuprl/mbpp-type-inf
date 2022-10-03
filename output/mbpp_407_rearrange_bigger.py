@@ -4,6 +4,7 @@ def rearrange_bigger(n: int) -> typing.Any:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(12) == 21
     assert candidate(10) == False

@@ -4,6 +4,7 @@ def odd_Equivalent(s: str, n: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('011001', 6) == 3
     assert candidate('11011', 5) == 4

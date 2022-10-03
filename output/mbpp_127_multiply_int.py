@@ -4,6 +4,7 @@ def multiply_int(x: int, y: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(10, 20) == 200
     assert candidate(5, 10) == 50

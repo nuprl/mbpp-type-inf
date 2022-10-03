@@ -4,6 +4,7 @@ def max_Product(arr: list[int]) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 4, 7, 0, 8, 4]) == (7, 8)
     assert candidate([0, -1, -2, -4, 5, 0, -6]) == (-4, -6)

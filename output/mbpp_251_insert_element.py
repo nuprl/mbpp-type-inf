@@ -4,6 +4,7 @@ def insert_element(list: list[str], element: str) -> list[str]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['Red', 'Green', 'Black'], 'c') == ['c', 'Red', 'c', 'Green', 'c', 'Black']
     assert candidate(['python', 'java'], 'program') == ['program', 'python', 'program', 'java']

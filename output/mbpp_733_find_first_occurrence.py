@@ -4,6 +4,7 @@ def find_first_occurrence(A: list[int], x: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([2, 5, 5, 5, 6, 6, 8, 9, 9, 9], 5) == 1
     assert candidate([2, 3, 5, 5, 6, 6, 8, 9, 9, 9], 5) == 2

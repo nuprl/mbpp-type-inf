@@ -4,6 +4,7 @@ def change_date_format(dt: str) -> str:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('2026-01-02') == '02-01-2026'
     assert candidate('2020-11-13') == '13-11-2020'

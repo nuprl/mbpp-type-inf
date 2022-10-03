@@ -4,6 +4,7 @@ def wind_chill(v: int, t: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(120, 35) == 40
     assert candidate(40, 20) == 19

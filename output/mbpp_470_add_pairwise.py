@@ -4,6 +4,7 @@ def add_pairwise(test_tup: tuple[int]) -> tuple[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((1, 5, 7, 8, 10)) == (6, 12, 15, 18)
     assert candidate((2, 6, 8, 9, 11)) == (8, 14, 17, 20)

@@ -4,6 +4,7 @@ def find_Rotations(str: str) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate('aaaa') == 1
     assert candidate('ab') == 2

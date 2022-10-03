@@ -4,6 +4,7 @@ def sort_sublists(input_list: tuple[list[str]]) -> list[list[str]]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate((['green', 'orange'], ['black', 'white'], ['white', 'black', 'orange'])) == [['green', 'orange'], ['black', 'white'], ['black', 'orange', 'white']]
     assert candidate(([' red ', 'green'], ['blue ', ' black'], [' orange', 'brown'])) == [[' red ', 'green'], [' black', 'blue '], [' orange', 'brown']]

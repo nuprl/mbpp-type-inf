@@ -4,6 +4,7 @@ def max_difference(test_list: list[tuple[int]]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([(3, 5), (1, 7), (10, 3), (1, 2)]) == 7
     assert candidate([(4, 6), (2, 17), (9, 13), (11, 12)]) == 15

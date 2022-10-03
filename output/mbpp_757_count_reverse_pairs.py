@@ -4,6 +4,7 @@ def count_reverse_pairs(test_list: list[str]) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(['julia', 'best', 'tseb', 'for', 'ailuj']) == 2
     assert candidate(['geeks', 'best', 'for', 'skeeg']) == 1

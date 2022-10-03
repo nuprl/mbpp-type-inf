@@ -4,6 +4,7 @@ def two_unique_nums(nums: list[int]) -> list[int]:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate([1, 2, 3, 2, 3, 4, 5]) == [1, 4, 5]
     assert candidate([1, 2, 3, 2, 4, 5]) == [1, 3, 4, 5]

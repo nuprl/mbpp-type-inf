@@ -4,6 +4,7 @@ def eulerian_num(n: int, m: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(3, 1) == 4
     assert candidate(4, 1) == 11

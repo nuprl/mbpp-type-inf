@@ -4,6 +4,7 @@ def surfacearea_cube(l: int) -> int:
 	"""
     pass
 
+### Unit tests below ###
 def check(candidate):
     assert candidate(5) == 150
     assert candidate(3) == 54
